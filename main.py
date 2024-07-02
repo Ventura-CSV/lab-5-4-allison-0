@@ -4,7 +4,10 @@ import random
 def minmax(numbers):
     minval = maxval = numbers[0]
     for n in numbers:
-
+        if n < minval:
+            minval = n
+        if n > maxval:
+            maxval = n
     return minval, maxval
 
 

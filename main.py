@@ -2,16 +2,11 @@ import random
 
 
 def minmax(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    minval = maxval = numbers[0]
+    for n in numbers:
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
     return minval, maxval
+
 
 
 def main():
